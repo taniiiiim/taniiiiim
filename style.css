@@ -1,0 +1,34 @@
+@charset="utf-8";
+
+body {
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: underline;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 0.2em solid;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+label {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  border: 0.2em solid #ff0000;
+  font-size: 1.5em;
+  color: #ff0000;
+}
