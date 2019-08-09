@@ -16,7 +16,8 @@ rescue ArgumentError
 end
 
 if session != nil
-  session['count'] = session['count'].to_i + 1
+ 
+ session['count'] = session['count'].to_i +4 
   session.close
 else
   session = CGI::Session.new(cgi,{"new_session"=>true})
